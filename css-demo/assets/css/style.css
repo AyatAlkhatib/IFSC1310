@@ -1,0 +1,82 @@
+/* ---------Box Sizing------------- */ 
+
+html {
+    box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+/* --------- global Style ---------- */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin:0;
+}
+
+header.primary{
+    background:#90b0db;
+    color:#695c5c;
+    text-align:center ;
+    text-shadow: 2px 2px #000000;
+    /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+header.primary h1 {
+    font-size: 2.4rem;
+    margin: 20px 0;
+    
+}
+header.primary h1 a {
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+header.primary h2 {
+margin: 0;
+font-size: 1.4rem;
+}
+
+header.primary nav {
+max-width: 900px;
+margin: auto ;
+}
+header.primary ul {
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header.primary ul li {
+    list-style-type: none;
+}
+
+header.primary nav a {
+    color:aliceblue;
+    text-decoration: none;
+    background-color: #646161;
+    background-color: rgba(0,0,0,.4);
+    padding:5px 10px;
+    border-radius:20px;
+    border: 1px solid #ffffff;
+    transition: 0.4s;
+
+}
+
+header.primary nav a:hover{
+    background-color: rgba(0,0,0,.8);
+    
+}
+
+
+body{
+    background-color: #BFE3DD;
+}
