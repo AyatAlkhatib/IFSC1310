@@ -9,6 +9,12 @@ html {
     box-sizing: inherit;
 }
 
+/* --------- Responsive images ---------- */
+
+img{
+    max-width: :100%;
+}
+
 
 
 /* --------- utility classes ---------- */
@@ -111,7 +117,7 @@ header.primary nav a{
 }
 
 #blog{
-flex
+display:flex;
 
 }
 body{
