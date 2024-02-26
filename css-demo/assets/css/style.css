@@ -9,6 +9,16 @@ html {
     box-sizing: inherit;
 }
 
+
+
+/* --------- utility classes ---------- */
+
+.container{
+    max-width: 960px;
+    width:80vw;
+    margin: 40px auto;
+}
+
 /* --------- global Style ---------- */
 
 body{
