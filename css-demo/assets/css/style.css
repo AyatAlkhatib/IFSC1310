@@ -83,6 +83,9 @@ header.primary nav a:hover{
     }
 }
 
+header.primary nav a{
+    display: block;
+}
 body{
     background-color: #BFE3DD;
 }
