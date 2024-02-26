@@ -94,6 +94,11 @@ header.primary nav a:hover{
 header.primary nav a{
     display: block;
 }
+
+#content h2 {
+    color:#BFE3DD;
+
+}
 body{
     background-color: #BFE3DD;
 }
