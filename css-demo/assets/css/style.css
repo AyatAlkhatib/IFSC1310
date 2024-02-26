@@ -118,8 +118,23 @@ header.primary nav a{
 
 #blog{
 display:flex;
+flex-direction: row;
+justify-content: space-around;
+gap:2rem;
 
 }
+
+#blog .post{
+    box-shadow: 0 8px 16px rgba(0,0,0,.6);
+
+}
+
+
+
+
+
+
+
 body{
     background-color: #BFE3DD;
 }
