@@ -77,6 +77,12 @@ header.primary nav a:hover{
 }
 
 
+@media screen and (max-widith: 600px) {
+    header.primary ul {
+        flex-direction: column;
+    }
+}
+
 body{
     background-color: #BFE3DD;
 }
