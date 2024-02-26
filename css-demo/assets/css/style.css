@@ -96,7 +96,8 @@ header.primary nav a{
 }
 
 #content h2 {
-    color:#BFE3DD;
+    color:blanchedalmond;
+    border-bottom:1px dotted #695c5c;
 
 }
 body{
