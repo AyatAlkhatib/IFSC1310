@@ -95,10 +95,19 @@ header.primary nav a{
     display: block;
 }
 
+#content {
+    line-height:1.5;
+}
+
 #content h2 {
     color:#90b0db;
     border-bottom:1px dotted #695c5c;
 
+}
+
+#content h3{
+    border-left:7.5px solid #90b0db;
+    padding:7.5px; 
 }
 body{
     background-color: #BFE3DD;
