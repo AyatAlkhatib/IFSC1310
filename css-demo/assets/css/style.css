@@ -72,7 +72,7 @@ header.primary ul li {
 
 header.primary nav a {
     color:aliceblue;
-    text-decoration: none;
+    text-decoration:none;
     background-color: #646161;
     background-color: rgba(0,0,0,.4);
     padding:5px 10px;
@@ -129,6 +129,7 @@ gap:2rem;
     padding:10px;
     border-radius: 4px;
     font-size: .8rem;
+    transition:.5s;
 
 }
 
@@ -137,12 +138,33 @@ gap:2rem;
     margin: 0;
 }
 
+#blog figcaption{
+    text-transform: uppercase;
+    font-size:.6rem;
+    text-align: center;
+    color: #e7d1d1;
+}
 
+#blog header{
+    background:#90b0db;
+    padding-top: 10px;
+    font-size:.6rem;
+}
 
+#blog header h2{
+    margin: 0;
 
+}
+
+#blog .post:hover{
+        box-shadow: 0 4px 16px rgba(0,0,0,.6);
+        padding:10px;
+        border-radius: 4px;
+        font-size: .8rem;
+}
 
 
 
 body{
-    background-color: #BFE3DD;
+    background:rgb(124, 153, 206);
 }
