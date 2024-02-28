@@ -180,13 +180,24 @@ aside .container{
 }
 
 aside .container a {
-display: block;
-color: #ffffff;
-text-align: right;
-margin-top: 1rem;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 1rem;
 
 }
 
+aside .widget footer{
+    display: none;
+    
+}
+
+#colophon{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+}
 
 body{
     background:rgb(124, 153, 206);
