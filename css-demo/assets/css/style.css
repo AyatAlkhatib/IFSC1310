@@ -180,9 +180,11 @@ aside .container{
 }
 
 aside .container a {
-    display:block;
-    color:#ffffff
-    margin-top: 1rem; 
+display: block;
+color: #ffffff;
+text-align: right;
+margin-top: 1rem;
+
 }
 
 
