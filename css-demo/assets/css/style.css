@@ -171,7 +171,7 @@ aside{
     padding 1.9rem;
 }
 
-asid .container{
+aside .container{
     display: flex;
     flex-direction: row;
     gap: 40px;
