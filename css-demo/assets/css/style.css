@@ -25,6 +25,14 @@ img{
     margin: 40px auto;
 }
 
+.img-right{
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #c0c0c0;
+    padding:5px;
+    border-radius: 50px;
+}
+
 /* --------- global Style ---------- */
 
 body{
@@ -163,6 +171,12 @@ border-top: 3rem #695c5c;
         padding:10px;
         border-radius: 4px;
         font-size: .8rem;
+}
+
+
+#practice h2{
+    color:#778394
+    border-bottom: 1px solid #c0c0c0;
 }
 
 aside{
