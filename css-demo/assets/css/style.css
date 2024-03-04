@@ -221,7 +221,11 @@ html {
   }
   
   #practice ol{
-    list-style-type: ;
+    list-style-type: lower-latin ;
+  }
+
+  #practice ul ul {
+    list-style-type: square;
   }
   
   
