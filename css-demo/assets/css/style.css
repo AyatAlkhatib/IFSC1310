@@ -20,25 +20,18 @@ html {
   /*  --------------- Utility Classes -----------------  */
   
   .container{
-    max-width: 960px;
-    width:80vw;
-    margin:40px auto;
+    max-width: 950px;
+    width:75vw;
+    margin:45px auto;
   }
-  
-  .img-right{
-    float:right;
-    margin: 10px 0 10px 20px;
-    border:1px solid #b1a4a4;
-    padding:5px;
-    border-radius:50px;
-  }
+
   
   .img-left{
     float:left;
-    margin: 10px 20px 10px 0;
-    border:1px solid #756363;
+    margin: 15px 25px 15px 0;
+    border:1px solid #ffffff;
     padding:5px;
-    border-radius:50px;
+    border-radius:25px;
   }
   
   .img-center{
@@ -52,7 +45,7 @@ html {
   /*  --------------- Global Styles -----------------  */
   
   body {
-    font-family: "Gabarito", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
   }
   
@@ -66,12 +59,6 @@ html {
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
-    /*Single value short hand*/
-    padding: 40px;
-    /* T,R,B,L */
-    padding: 20px 40px 20px 40px;
-    /* Two Value Top/Bottom / L/R */
-    padding: 20px 40px;
   }
   
   header.primary h1 {
@@ -138,7 +125,7 @@ html {
     flex-direction:row;
     justify-content:space-around;
     gap:2rem;
-    border-bottom:1px dotted #c0c0c0;
+    border-bottom:2.5px dotted #c0c0c0;
     padding: 2rem 0;
     border-top:1px dotted #c0c0c0;
     flex-wrap:wrap;
