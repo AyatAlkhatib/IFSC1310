@@ -12,7 +12,10 @@ body {
 
 
 header.primary {
-  background-color: #be9ad4;
+  background-image:url("..//img/Dragon-Logo.png");background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: auto;
   color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px #000000;
@@ -52,5 +55,7 @@ header.primary nav a {
   transition: 0.4s;
 }
 
-SE
+#blog {
+  color:rgb(0, 0, 0);
+}
 
