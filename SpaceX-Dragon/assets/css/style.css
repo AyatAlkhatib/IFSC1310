@@ -2,7 +2,7 @@
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: #D8BFD8;
+  background-color: #001F3F;
   padding: auto;
 }
 
@@ -14,16 +14,17 @@ body {
 header.primary {
   background-image:url("..//img/Dragon-Logo.png");background-repeat: no-repeat;
   background-size: contain;
+  border-image-width: 100px;
   height: 150px;
   width: auto;
   color: #ffffff;
   text-align: center;
   text-shadow: 2px 2px #000000;
-  /*long form*/
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  padding-left: 40px;
+  /*long form*/ 
+  padding-top: 60px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  padding-left: 70px;
 }
 
 header.primary h1 {
@@ -49,13 +50,13 @@ header.primary ul li {
 header.primary nav a {
   color: #fff;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #C0C0C0(0, 0, 0, 0.4);
   padding: 7.5px 10px;
   border-radius: 20px;
   transition: 0.4s;
 }
 
 #blog {
-  color:rgb(0, 0, 0);
+  color:C0C0C0(0, 0, 0);
 }
 
