@@ -1,5 +1,15 @@
 /* color background, font, size the whole page */
 
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #C0C0C0;
@@ -13,7 +23,7 @@ body {
 
 
 header.primary {
-background-color: #1f1f1f;
+background-color: #7e7d7d;
 padding: 40px;
 
 
@@ -22,7 +32,7 @@ padding: 40px;
 header.primary h1 {
   color: white; 
   text-align: center;
- 
+  text-shadow: #3f3f3f;
 }
   
 header.primary ul  {
@@ -48,11 +58,10 @@ header.primary nav a {
   border-radius: 20px;
   border: 1px solid #c0c0c0;;
   transition: 0.4s;
+
 }
 
-#blog {
-  color:C0C0C0(0, 0, 0);
-}
+
 
 
 header.primary nav a:hover {
@@ -103,4 +112,10 @@ background-color: rgba(162, 157, 185, 0.1);
 td{
   border:2px solid #898da7;
   padding:4px;
+}
+
+.center-text{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
