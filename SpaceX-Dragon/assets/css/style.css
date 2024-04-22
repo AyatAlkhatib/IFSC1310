@@ -16,6 +16,7 @@ header.primary {
 background-color: #1f1f1f;
 padding: 40px;
 
+
 }
 
 header.primary h1 {
@@ -56,4 +57,8 @@ header.primary nav a {
 
 header.primary nav a:hover {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+blog{
+  image-rendering: auto;
 }
