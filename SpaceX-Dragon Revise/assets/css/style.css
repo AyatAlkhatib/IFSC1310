@@ -13,12 +13,48 @@ body{
 }
 
 /* styling the header*/
+
+header.primary {
+    background-color: #ffffff;
+    text-align: center;
+    color: #fffcfc;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+    padding: 8em 2em;
+    position: relative;
+  }
+  
 .primary{
     background: #444;
-    background-image:url(../img/3d-cg-rendering-of-space-ship-high-resolution-image-gallery-an-intergalactic-modern-spaceship-orbiting-a-distant-planet-on-a-black-background-ai-generated-free-photo.jpg);
+    background-image:url(../img/space\ bg02.webp);
     background-size: cover;
-    position: absolute;
-    padding: 80px 0;
+    position: relative;
+    padding: 110px 0px;
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+  header.primary ul  {
+    padding: 10px 0;
+    display: flex;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  header.primary nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(106, 116, 143, 0.4);
+    padding: 7.5px 10px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    transition: 0.4s;
+  
+  }
+
