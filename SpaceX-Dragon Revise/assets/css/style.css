@@ -1,211 +1,25 @@
 
 
-/* ---------------Box Sizing----------------- */
-
-html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  }
-  
-  .img-left {
-    float: left;
-    margin: 10px 20px 10px 0;
-    border: 1px solid #c0c0c0;
-    padding: 5px;
-  }
-  
-  .img-center {
-    display: block;
-    margin: 20px auto;
-    border: 1px solid #c0c0c0;
-    padding: 5px;
-  }
-  
-  /* ---- Responsive Images ----*/
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* ----- Global Styles ---- */
-  
-  body {
-    font-family: "Lato", sans-serif;
-    margin: 0;
-  }
-  
-  header.primary {
-    background-color: #181c1f;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 2px 2px #000000;
-    /* Shorhand T,R,B,L*/
-    padding: 6em 2em;
-    position: relative;
-  }
-  
-  header.primary::before {
-    content: "";
-    background-image: url("../img/Dragon-Logo.png");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4;
-  }
-  
-  header.primary h1 {
-    font-size: 3.2rem;
-    margin: 20px 0;
-    position: relative;
-  }
-  
-  header.primary h1 a {
-    color: #ffffff;
-    background-image: url("../img/logo-2.png");
-    display: block;
-    width: 450px;
-    height: 70px;
-    margin: 0 auto;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  header.primary h2 {
-    font-family: "Goldman", cursive;
-    font-size: 2em;
-    /* Shorhand Three Value Top, Left/Right, Bottom*/
-    margin: 20px auto 40px;
-    position: relative;
-  }
-  
-  header.primary nav ul {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
     padding: 0;
     margin: 0;
-  }
-  
-  #articles .post img {
-    border-radius: 10px;
-  }
-  
-  #articles ul {
-    padding: 0 20px;
-  }
-  #articles li {
-    margin-bottom: 20px;
-  }
-  
-  /* ------------- Hero --------------- */
-  
-  #hero {
-    padding: 4em 0;
-  }
-  
-  /* ------------- Aside --------------- */
-  
-  /* Attribute Selector */
-  aside[role="complementary"] {
-    background-color: #181c1f;
-    color: #ffffff;
-    padding: 2.5em;
-  }
-  
-  aside .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  aside article.widget {
-    width: 40%;
-  }
-  
-  .widget.overview table {
-    font-size: 0.7em;
-    border-collapse: collapse;
-  }
-  
-  .widget.overview table td {
-    border-bottom: 1px solid #fff;
-    padding: 10px;
-  }
-  
-  .widget.overview table td:nth-child(even) {
-    text-align: right;
-  }
-  
-  aside article a:link,
-  aside article a:visited {
-    color: #ffffff;
-    display: block;
-    margin-top: 1.2em;
-    letter-spacing: 1.2px;
-  }
-  
-  aside article a:hover,
-  aside article a:active {
-    text-decoration: none;
-  }
-  
-  aside article footer {
-    display: none;
-  }
-  
-  /*------ Footer ------*/
-  
-  footer#colophon {
-    background-color: #1b2c38;
-  }
-  
-  }
-  
-  #colophon h6 a:link,
-  #colophon h6 a:visited {
-    color: #fff;
-  }
-  
+}
 
-  /* ---------------Media Queries----------------- */
-  
-  @media screen and (max-width: 600px) {
-    header.primary nav ul {
-      flex-direction: column;
-      margin: 0 auto;
-      width: 400px;
-    }}
-  
-    header.primary nav ul li {
-      margin-bottom: 10px;
-      width: 400px;
-    }
-  
-    header.primary nav ul li a {
-      display: block;
-    }
-  
-    section#articles .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      border-bottom: 1px solid #c0c0c0;
-      padding: 0 0 4em 0;
-    }
-  
-    #articles article.post {
-      width: 100%;
-      margin-bottom: 2em;
-    }
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* styling the header*/
+.primary{
+    background: #444;
+    background-image:url(../img/3d-cg-rendering-of-space-ship-high-resolution-image-gallery-an-intergalactic-modern-spaceship-orbiting-a-distant-planet-on-a-black-background-ai-generated-free-photo.jpg);
+    background-size: cover;
+    position: absolute;
+    padding: 80px 0;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
