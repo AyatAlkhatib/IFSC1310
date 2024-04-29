@@ -58,3 +58,19 @@ header.primary {
   
   }
 
+  footer#colophon {
+    background-color: #413044;
+  }
+  
+  #colophon h6 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.70rem;
+  }
+  
+  #colophon h6 a:link,
+  #colophon h6 a:visited {
+    color: #fff;
+  }
