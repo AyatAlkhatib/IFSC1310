@@ -1,0 +1,191 @@
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9d8aaa;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* styling the header*/
+
+header.primary {
+    background-color: #ffffff;
+    text-align: center;
+    color: #fffcfc;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+    padding: 8em 2em;
+    position: relative;
+  }
+  
+.primary{
+    background: #444;
+    background-image:url(../img/space\ bg02.webp);
+    background-size: cover;
+    position: relative;
+    padding: 110px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+  header.primary ul  {
+    padding: 10px 0;
+    display: flex;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  header.primary nav a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(106, 116, 143, 0.4);
+    padding: 7.5px 10px;
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    transition: 0.4s;
+  
+  }
+
+  /* footer design*/
+  footer#colophon {
+    background-color: #413044;
+  }
+  
+  #colophon h6 {
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 0.70rem;
+  }
+  
+  #colophon h6 a:link,
+  #colophon h6 a:visited {
+    color: #fff;
+  }
+
+  /* container sections*/
+
+  .container h2{
+    font-size: 35px;
+    color: rgb(100, 29, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  .container p {
+    font-size: 20px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .container h3{
+    font-size: 25px;
+    color: #a663ac;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+.container article {
+  font-size: 20px;
+  color:rgb(201, 193, 193);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container h5{
+  font-size: 25px;
+  color:lightpink;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section h2{
+  font-size: 35px;
+  color:#b551be ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+section p{
+  font-size: 20px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+table {
+  font-size: 20px;
+  color:black;
+  border:1px solid white ;
+  width: 100%;
+  margin:30px 0;
+  border-collapse:collapse;
+
+
+}
+
+tr:nth-child(even){
+background-color: #fffcfc;
+
+
+}
+
+th{
+  background-color: #382335;
+  color:#ffffff;
+  padding:7.5px;
+}
+  
+td{
+  border:2px solid #70727e;
+  padding:4px;
+}
+
+section h4{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+.post img {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c1a9c2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#blog{
+  text-align: center;
+}
+
+.post {
+  display: inline-block; 
+  margin-bottom: 30px;
+}
+
+figure {
+  margin: 0; 
+}
+
+img {
+  display: block;
+  margin: 0 auto; 
+}
